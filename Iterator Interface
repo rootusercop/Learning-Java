@@ -1,0 +1,26 @@
+IMP link for understanding Iterator Interface in Java
+
+
+http://www.youtube.com/watch?v=5TaZbcXkpxs
+
+
+
+The following below classes implement the Iterator Interface:
+
+
+All Known Implementing Classes:
+AbstractCollection, AbstractList, AbstractQueue, 
+AbstractSequentialList, AbstractSet, ArrayBlockingQueue, 
+ArrayDeque, ArrayList, AttributeList, BatchUpdateException, 
+BeanContextServicesSupport,BeanContextSupport, ConcurrentLinkedQueue, 
+ConcurrentSkipListSet, CopyOnWriteArrayList, CopyOnWriteArraySet, DataTruncation,
+DelayQueue, EnumSet, HashSet, JobStateReasons,LinkedBlockingDeque,
+LinkedBlockingQueue, LinkedHashSet, LinkedList, PriorityBlockingQueue, 
+PriorityQueue, RoleList, RoleUnresolvedList, RowSetWarning, SerialException, 
+ServiceLoader,SQLClientInfoException, SQLDataException, SQLException,
+SQLFeatureNotSupportedException, SQLIntegrityConstraintViolationException, 
+SQLInvalidAuthorizationSpecException,SQLNonTransientConnectionException, 
+SQLNonTransientException, SQLRecoverableException, SQLSyntaxErrorException, 
+SQLTimeoutException, SQLTransactionRollbackException,SQLTransientConnectionException,
+SQLTransientException, SQLWarning, Stack, SyncFactoryException, SynchronousQueue, 
+SyncProviderException, TreeSet, Vector
