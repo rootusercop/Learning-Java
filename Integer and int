@@ -1,0 +1,32 @@
+I am confused as to why Integer and int can be used interchangeably in Java even though
+one is a primitive type and the other is an object?
+
+For example:
+
+Integer b = 42;
+int a  = b;
+
+Or
+
+int d = 12;
+Integer c = d;
+
+
+
+Answer:
+
+You can’t put an int (or other primitive value) into a collection. Collections can only hold object
+references, so you have to box primitive values into the appropriate wrapper class (which is "Integer" in 
+the case of int). When you take the object out of the collection, you get the Integer that you put in;
+if you need an int, you must unbox the Integer using the "intValue()" method. All of this boxing and unboxing 
+is a pain, and clutters up your code. The autoboxing and unboxing feature automates the process,
+eliminating the pain and the clutter.
+
+That is basically it in a nutshell. It allows you take advantage of the Collections Framework 
+for primatives without having to do the work yourself.
+
+The primary disadvantage is that it confuses new programmers, and can lead to messy/confusing 
+code if it's not understood and used correctly.
+
+
+This matter is taken from the following link: http://stackoverflow.com/questions/7121581/why-can-integer-and-int-be-used-interchangably
