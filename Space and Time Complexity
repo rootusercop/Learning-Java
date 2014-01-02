@@ -1,0 +1,42 @@
+The time and space complexities are not related to each other. 
+They are used to describe how much space/time your algorithm takes based on the input.
+
+For example when the algorithm has space complexity of:
+
+O(1) - constant - the algorithm uses a fixed (small) amount of space which
+doesn't depend on the input. For every size of the input the algorithm will take
+the same (constant) amount of space. This is the case in your example as the input
+is not taken into account and what matters is the time/space of the print command.
+
+O(n), O(n^2), O(log(n))... - these indicate that you create additional objects based 
+on the length of your input. For example creating a copy of each object of v storing
+it in an array and printing it after that takes O(n) space as you create n additional objects.
+
+Your example is an example that time and space complexity might be different. 
+It takes v.length * print.time to print all the elements. But the space is always
+the same - O(1) because you don't create additional objects.
+
+In contrast the time complexity describes how much time your algorithm consumes based
+on the length of the input. Again:
+
+O(1) - no matter how big is the input it always takes a constant time - for example only one 
+instruction. Like
+
+function(list l) { print("i got a list"); }
+
+O(n), O(n^2), O(log(n)) - again it's based on the length of the input. For example
+
+function(list l) {
+    for(node in l) {
+        print(node);
+    }
+}
+Note that both last examples take O(1) space as you don't create anything. Compare it to
+
+function(list l) {
+    list c;
+    for(node in l) {
+        c.add(node);
+    }
+}
+which takes O(n) space
