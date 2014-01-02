@@ -1,0 +1,8 @@
+The compareTo(Object o) method is a method of the Comparable Interface (and not Comparator Interface)
+
+
+Its VERY IMPORTANT to learn this method thoroughly.
+
+Please watch the Youtube video mentioned in the below link which explains this method very well.
+
+http://www.youtube.com/watch?v=iTC43mLZG38
