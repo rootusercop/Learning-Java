@@ -1,4 +1,4 @@
-I am confused as to why Integer and int can be used interchangeably in Java even though
+Question -> I am confused as to why Integer and int can be used interchangeably in Java even though
 one is a primitive type and the other is an object?
 
 For example:
