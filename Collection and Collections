@@ -1,0 +1,19 @@
+Collection is an interface in java which is implemented by List, Set and Map.
+
+Please go through all the classes and interfaces which implement Collection.
+The following is the link for java docs: http://docs.oracle.com/javase/6/docs/api/java/util/Collection.html
+
+Whereas Collections is a proper class in java which consists of some famous predefined methods such as the 
+sychronized method.
+Please go through the following link for more details on the Collections class: http://docs.oracle.com/javase/7/docs/api/java/util/Collections.html
+
+
+
+THE MOST IMPORTANT OF ALL.
+
+Please go through the channel "SharingIsLearning" on Youtube. In this channel, the author has very nicely explained
+the Collection interface and Collections class in detail and very precide. The total videos for the Collection interface
+is about 3 to 4 videos. Please watch all the 3 to 4 videos (Each video is of hardly 6 minutes).
+They are very helpful.
+
+
