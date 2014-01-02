@@ -1,7 +1,7 @@
 The time and space complexities are not related to each other. 
 They are used to describe how much space/time your algorithm takes based on the input.
 
-For example when the algorithm has space complexity of:
+For example When the algorithm has space complexity of:
 
 O(1) - constant - the algorithm uses a fixed (small) amount of space which
 doesn't depend on the input. For every size of the input the algorithm will take
