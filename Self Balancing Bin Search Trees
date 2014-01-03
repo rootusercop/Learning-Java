@@ -9,6 +9,15 @@ implementing Red-Black is very complicated task.
 Video for understanding balancing in AVL Trees:
 http://www.youtube.com/watch?v=ij1gSage9uA
 
+
+IMP NOTE:
+To understand RB Trees, you have to first understand 2-3-4 Trees (aka 2-4 Trees).
+The following are the best videos for understanding 2-3-4 (or 2-4) Trees.
+Basics of 2-3-4(aka 2-4) Trees -> http://www.youtube.com/watch?v=47u7RU0XNR0
+Insertion in 2-3-4(aka 2-4) Trees -> http://www.youtube.com/watch?v=uIWLCfT9daI
+Deletion in 2-3-4(aka 2-4) Trees -> http://www.youtube.com/watch?v=M_z-qYOY5JQ
+
+
 Video for understanding Red Black Trees:
 http://www.youtube.com/watch?v=JRsN4Oz36QU&list=PL104E2710A064F69E
 http://www.youtube.com/watch?v=6QOKk_pcv3U&list=PL104E2710A064F69E
