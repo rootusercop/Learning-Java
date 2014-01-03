@@ -19,11 +19,16 @@ Trees
 3) Zoology: Maintaining the structures of the entire animal & plant kingdom.
 4) Social Networks : Establishing relations between users based on some key.
 
+
 B-Trees (Binary Trees): 
 1) E-commerce : while accessing unique keys. B-Trees balanced multi-way search tree of order N.
 2) Searching : Searching quickly for a given element.
-3) Hash Tables: in Banks for combining two or more accounts for matching Social Security Numbers.
-4) for File Systems
+3) For File Systems
+
+
+Hash Tables:
+1) In Banks for combining two or more accounts for matching Social Security Numbers.
+
 
 Trie(prefix tree):
 1) in auto-complete dictionary in mobiles, search engines etc.
@@ -31,6 +36,7 @@ Trie(prefix tree):
 
 B+ Trees
 1) for building Data Bases 
+ 
  
 ★ Question ->Why are Red-Black trees used more often in industry than AVL trees?
 Though AVL trees appear to be simpler (ie. fewer cases to handle) and have shorter heights,
