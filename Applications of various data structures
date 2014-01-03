@@ -31,11 +31,17 @@ Hash Tables:
 
 
 Trie(prefix tree):
-1) in auto-complete dictionary in mobiles, search engines etc.
-2) as approximate algorithms in spell-checking
+1) In auto-complete dictionary in mobiles, search engines etc.
+2) As approximate algorithms in spell-checking
 
 B+ Trees
 1) for building Data Bases 
+
+Splay Tree:
+1) Used in caches
+
+Suffix tree:
+1) Genomic sequencing
  
  
 ★ Question ->Why are Red-Black trees used more often in industry than AVL trees?
@@ -63,12 +69,6 @@ Used in nessDB.
 Bloom filter:
 Used by Cassandra to check which SSTables mostly contains the key.
 Hbase also uses it to optimize the reads.
-
-Splay Tree:
-Used in caches.
-
-Suffix tree:
-Genomic sequencing.
 
 LSM trees:
 Used by Cassandra(SSTables), Big table for storage.
