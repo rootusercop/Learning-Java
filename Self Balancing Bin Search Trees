@@ -1,5 +1,5 @@
-What are some real-world applications of Red-Black trees today?
-There are two popular Balanced Binary Search Tree: AVL Tree and Red-Black Tree.
+Question -> What are some real-world applications of Red-Black trees today?
+Answer: There are two popular Balanced Binary Search Tree: AVL Tree and Red-Black Tree.
 Both offers O(lg n) search time. But the hidden constant behind Big O makes AVL Tree more 
 suitable for search and Red-Black Tree for insertion-deletion. Insertion-deletion takes less 
 time in Red-Black Tree than AVL Tree. That's Red-Black Tree are more popular than AVL Tree although
