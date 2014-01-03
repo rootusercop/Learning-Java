@@ -2,16 +2,13 @@ Queue:
 1) Queueing processes : any device does not have infinite resources, so a queue has 
    to be used in order to allocate resources to those process that need it on a priority level.
 
-
 Bloom filters:
 1) In shortening URLs.
-
 
 Graphs:
 1) GIS : in Geographic Informative Systems, transport and vehicular technology.
 2) Maps : Google Maps, Bing, etc.
 3) Paths between points(keys) : Like the A* Algorithm, etc.
-
 
 Trees 
 1) Data base designing : creating your own database just to store the data based upon some key value
@@ -19,16 +16,13 @@ Trees
 3) Zoology: Maintaining the structures of the entire animal & plant kingdom.
 4) Social Networks : Establishing relations between users based on some key.
 
-
 B-Trees (Binary Trees): 
 1) E-commerce : while accessing unique keys. B-Trees balanced multi-way search tree of order N.
 2) Searching : Searching quickly for a given element.
 3) For File Systems
 
-
 Hash Tables:
 1) In Banks for combining two or more accounts for matching Social Security Numbers.
-
 
 Trie(prefix tree):
 1) In auto-complete dictionary in mobiles, search engines etc.
