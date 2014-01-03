@@ -1,0 +1,34 @@
+String -> Immutable
+StringBuilder -> Mutable(can be changed)
+StringBuffer -> Mutable(an be changed)
+
+Difference between StringBuilder and StringBuffer:
+StringBuilder -> provides NO ThreadSafety hence no performance overhead
+StringBuffer -> provides ThreadSafety hence it has some performance overhead
+
+When to use StringBuilder and StringBuffer:
+In multithreaded system, where thread safety is required, we use StringBuffer
+In normal programs, we use StringBuilder, since it has NO threadsafety overhead and hence it is fast.
+
+
+Please go throughly through the following YouTube link, in the video it is explained very nicely.
+http://www.youtube.com/watch?v=nQHVt-nOpxQ
+
+Also go through the Java documentation for:
+1) String -> http://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+2) StringBuilder -> http://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html
+3) StringBuffer -> http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html
+
+
+Example:
+Question -> For a given string of some sentence, reverse words in that sentence.
+Ex: I am Don   ,   return Don am I
+Solution:
+public String reverse(String string) {
+		String stAry[] = string.split(" ");
+		StringBuilder b = new StringBuilder();
+		for (int i = stAry.length - 1; i >= 0; i--) {
+			b.append(stAry[i]).append(" ");
+		}
+		return b.toString();
+	}
