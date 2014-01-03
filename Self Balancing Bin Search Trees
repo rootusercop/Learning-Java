@@ -4,3 +4,10 @@ Both offers O(lg n) search time. But the hidden constant behind Big O makes AVL 
 suitable for search and Red-Black Tree for insertion-deletion. Insertion-deletion takes less 
 time in Red-Black Tree than AVL Tree. That's Red-Black Tree are more popular than AVL Tree although
 implementing Red-Black is very complicated task.
+
+
+Video for understanding balancing in AVL Trees:
+http://www.youtube.com/watch?v=ij1gSage9uA
+
+
+
