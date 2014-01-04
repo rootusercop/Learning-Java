@@ -1,5 +1,6 @@
 First of all let us clear a concept that:
-2-3-4(aka 2-4) Trees are searcg trees but not Binary(i.e. atmost 2 children) Search Trees.
+2-3-4(aka 2-4) Trees are search(i.e. left subtree is less than right subtree) trees
+but not Binary(i.e. atmost 2 children) Search Trees.
 
 Whereas, both AVL Trees and Red Black Trees are "self balancing" BINARY SEARCH TRESS.
 
