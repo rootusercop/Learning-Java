@@ -1,3 +1,15 @@
+First of all let us clear a concept that:
+2-3-4(aka 2-4) Trees are searcg trees but not Binary(i.e. atmost 2 children) Search Trees.
+
+Whereas, both AVL Trees and Red Black Trees are "self balancing" BINARY SEARCH TRESS.
+
+Exact meaning of few IMP words:
+Search means "Left subtree is always less than right subtree"
+Binary means "Atmost 2 children"
+2-3-4(aka 2-4) means "either 2 or 3 or 4 children" (cannot have 0 or 1 children)
+
+
+
 In order for the search trees to be effective the MANTRA that everyone teaches is that:
 "The height of the tree should be log(n) [to the base 2]"  -> Always remember this
 If any tree satisfies this MANTRA then its an efficient Tree for searching operations.
