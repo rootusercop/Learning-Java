@@ -1,3 +1,8 @@
+In order for the search trees to be effective the MANTRA that everyone teaches is that:
+"The height of the tree should be log(n) [to the base 2]"  -> Always remember this
+If any tree satisfies this MANTRA then its an efficient Tree for searching operations.
+
+
 Question -> What are some real-world applications of Red-Black trees today?
 Answer: There are two popular Balanced Binary Search Tree: AVL Tree and Red-Black Tree.
 Both offers O(lg n) search time. But the hidden constant behind Big O makes AVL Tree more 
