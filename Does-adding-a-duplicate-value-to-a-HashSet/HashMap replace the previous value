@@ -1,0 +1,17 @@
+Please consider the below piece of code:
+
+HashSet hs = new HashSet();
+hs.add("hi"); -- (1)
+hs.add("hi"); -- (2)
+hs.size() will give 1 as HashSet doesn't allow duplicates so only one element will be stored.
+
+I want to know if we add the duplicate element, then does it replace the previous element or it simply doesn't add it?
+
+Also, what will happen usingHashMap for the same case?
+
+
+Answer -> 
+
+In the case of HashMap, it replaces the old value with the new one.
+
+In the case of HashSet, the item isn't inserted.
