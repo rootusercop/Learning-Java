@@ -3,8 +3,10 @@ StringBuilder -> Mutable(can be changed)
 StringBuffer -> Mutable(an be changed)
 
 Difference between StringBuilder and StringBuffer:
-StringBuilder -> provides NO ThreadSafety hence no performance overhead
-StringBuffer -> provides ThreadSafety hence it has some performance overhead
+StringBuilder -> provides NO ThreadSafety(means all methods of StringBuilder are not synchronized)
+hence no performance overhead
+StringBuffer -> provides ThreadSafety(means all methods of StringBuffer are synchronized)
+hence it has some performance overhead
 
 When to use StringBuilder and StringBuffer:
 In multithreaded system, where thread safety is required, we use StringBuffer
@@ -24,11 +26,19 @@ Example:
 Question -> For a given string of some sentence, reverse words in that sentence.
 Ex: I am Don   ,   return Don am I
 Solution:
-public String reverse(String string) {
-		String stAry[] = string.split(" ");
-		StringBuilder b = new StringBuilder();
-		for (int i = stAry.length - 1; i >= 0; i--) {
-			b.append(stAry[i]).append(" ");
-		}
-		return b.toString();
-	}
+
+
+
+public class ReverseArray {
+public static void main(String[] args) {
+	
+	String givenString = "Am I bad ? ";
+			StringBuilder reverse=new StringBuilder(givenString.length());
+			for(int i=givenString.length()-1;i>=0;i--){
+				reverse.append(givenString.charAt(i));
+			}
+			System.out.println(reverse);
+	
+}
+}
+
