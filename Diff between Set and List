@@ -1,6 +1,7 @@
 Source-> http://javarevisited.blogspot.com/2012/04/difference-between-list-and-set-in-java.html
 
 
+Please Note: This is much better explanation than given in the link above.
 
 List vs Set in Java
 
@@ -29,3 +30,42 @@ implementation of Set interface includes HashSet, TreeSet and LinkedHashSet.
 
 
 Read more: http://javarevisited.blogspot.com/2012/04/difference-between-list-and-set-in-java.html#ixzz2qF8yRnUr
+
+
+Code to test the statements written above:
+import java.awt.List;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Set;
+
+public class Difference {
+public static void main(String[] args) {
+	Set<Integer> sets=new HashSet<Integer>();
+	sets.add(1);
+	sets.add(1);
+	System.out.println(sets.size());
+	
+	LinkedList<Integer> lists=new LinkedList<Integer>();
+	lists.add(1);
+	lists.add(1);
+	System.out.println(lists.size());
+	
+	Map<Integer, Integer> maps=new HashMap<Integer, Integer>();
+	maps.put(1, 1);
+	maps.put(1, 2); // Just to check whether the pevious VALUE at the same key is over written or not.
+	System.out.println(maps.size());
+	System.out.println(maps.get(1)); // Output comes 2, hence the pevious VALUE at the same key is over written
+}
+}
+
+/*
+Output
+
+1 //size of Set
+2 //size of List
+1 //size of Map
+2 // value at key 1
+
+*/
