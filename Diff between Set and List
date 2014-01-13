@@ -10,7 +10,9 @@ retrieve elements, along with to support Iteration over collection.
 
 1) Fundamental difference between List and Set in Java is allowing duplicate elements. List in Java allows
 duplicates while Set doesn't allow any duplicate. If you insert duplicate in Set it will replace the older
-value. Any implementation of Set in Java will only contains unique elements.
+value. While if a duplicate is inserted in a List, it will be appended as the next element in the List.
+In case of duplicates in Map, if the keys are the same, the value of the latest will overwrite the value
+previously existed at that same key. (Remember, Map works on KEY-VALUE pairs)
 
 2) Another significant difference between List and Set in Java is order. List is an Ordered Collection while
 Set is an unordered Collection. List maintains insertion order of elements, means any element which is 
