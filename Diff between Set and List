@@ -69,3 +69,28 @@ Output
 2 // value at key 1 of the Map
 
 */
+
+Ordered lists of element (unique or not)
+Conform to Java's interface named List
+Can be accessed by index
+
+LinkedList
+ArrayList
+Lists of unique elements:
+Conform to Java's interface named Set
+Can not be accessed by index
+
+HashSet (unordered)
+LinkedHashSet (ordered)
+TreeSet (sorted by natural order or by provided comparator)
+Both interfaces Set and List conform to Java's interface named Collection
+
+╔═══════════════════╦══════════════════════╦═════════════════════════════╗
+║                   ║         List         ║            Set              ║
+╠═══════════════════╬══════════════════════╬═════════════════════════════╣
+║     Duplicates    ║          YES         ║            NO               ║
+╠═══════════════════╬══════════════════════╬═════════════════════════════╣
+║       Order       ║       ORDERED        ║  DEPENDS ON IMPLEMENTATION  ║
+╠═══════════════════╬══════════════════════╬═════════════════════════════╣
+║ Positional Access ║         YES          ║            NO               ║ 
+╚═══════════════════╩══════════════════════╩═════════════════════════════╝
