@@ -1,6 +1,7 @@
 String -> Immutable
 StringBuilder -> Mutable(can be changed)
 StringBuffer -> Mutable(an be changed)
+The only difference between StringBuffer and StringBuilder is StringBuffer is thread-safe, that is StringBuffer is synchronized.
 
 Difference between StringBuilder and StringBuffer:
 StringBuilder -> provides NO ThreadSafety(means all methods of StringBuilder are not synchronized)
