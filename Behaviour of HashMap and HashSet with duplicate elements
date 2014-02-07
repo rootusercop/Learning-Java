@@ -3,7 +3,7 @@ Please consider the below piece of code:
 HashSet hs = new HashSet();
 hs.add("hi"); -- (1)
 hs.add("hi"); -- (2)
-hs.size() will give 1 as HashSet doesn't allow duplicates so only one element will be stored.
+hs.size() will give 1 
 
 I want to know if we add the duplicate element, then does it replace the previous element or it simply doesn't add it?
 
@@ -14,4 +14,13 @@ Answer ->
 
 In the case of HashMap, it replaces the old value with the new one.
 
-In the case of HashSet, the item isn't inserted.
+In the case of HashSet, the old is replaced with the new one.
+
+
+Both of them dont allow duplicates, the old is replaced with the new value.
+
+
+Only in case of LinkedList, duplicates are allowed.
+
+Between LL, HashMap and HashSet -> LL is the data structure which allows duplicates. The rest two dont allow 
+duplicates.
