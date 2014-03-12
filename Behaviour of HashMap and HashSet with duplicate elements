@@ -12,9 +12,9 @@ Also, what will happen usingHashMap for the same case?
 
 Answer -> 
 
-In the case of HashMap, it replaces the old value with the new one.
+Now in HashMap, it replaces the old value with the new one.
 
-In the case of HashSet, the old is replaced with the new one.
+Also in the case of HashSet, the old is replaced with the new one.
 
 
 Both of them dont allow duplicates, the old is replaced with the new value.
