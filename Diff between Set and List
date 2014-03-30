@@ -5,7 +5,8 @@ Please Note: This is much better explanation than given in the link above.
 
 List vs Set in Java
 
-Difference between Set and List in Javahere are few note worthy differences between List and Set in Java.
+Difference between Set and List in Java:
+Here are few note worthy differences between List and Set in Java.
 Remember that both of them are used to store objects and provides convenient API to insert, remove and
 retrieve elements, along with to support Iteration over collection.
 
