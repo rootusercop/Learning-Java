@@ -1,9 +1,26 @@
-Please find the information about the following important concepts in Java which are very useful.
-
-Search the web, forums like stackoverflow or youtube channels for the following information.
+Important Java Questions:
 
 1) Difference betweeen Class, Object and Instance
+Link is -> http://alfredjava.wordpress.com/2008/07/08/class-vs-object-vs-instance/
+http://wiki.answers.com/Q/Difference_between_instance_and_object#slide=2
+
 2) super keyword with example
+
+The super is a reference variable that is used to refer immediate parent class object.
+
+Whenever you create the instance of subclass, an instance of parent class is created implicitly 
+i.e. referred by super reference variable.
+
+Usage of super Keyword:
+-> super is used to refer immediate parent class instance variable.
+-> super() is used to invoke immediate parent class constructor. 
+super() is added in each class constructor automatically by compiler.
+Please see the link: http://www.javatpoint.com/super-keyword
+-> super is used to invoke immediate parent class method.
+
+Examples given in this link.  Source: http://www.javatpoint.com/super-keyword
+
+
 3) Difference between Error and Exceptions(Clearly explained in the Youtube Channel "SharingIsLearning"
 in the video titled as "Exception Handling"
 Link is -> https://www.youtube.com/watch?v=vjmMF9ZZkiQ
