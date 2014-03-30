@@ -1,6 +1,10 @@
 Follow the below mentioned Youtube link:
 http://www.youtube.com/watch?v=JSvVsOm4oX0
 
+Comparable (compareTo(Object o) method) and Comparator(compare(Object o1, Object o2) and equals(Object o)), 
+both are interfaces in Java.
+Comparator -> To Remember: eater. Hence only one method.
+Comparable -> To Remember: keep the thing. Hence two methods.
 
 Also before going to the video tutorials, please read the java docs for Comparator and Comparable.
 
