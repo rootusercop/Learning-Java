@@ -13,9 +13,9 @@ me any good at, I’m just wasting that space.
 are full. Resizing takes O(n) time as the elements from the previous hashtable/HashMap are transferred to
 a new bigger Hashtable/HashMap. This is not good for implementation.
 5) The concept that Hashtables/HashMap offers O(constant) (aka O(1) ) time complexity
-for insertion, deletion and searchingis something to rethink on as the datastructure givies that
+for insertion, deletion and searching is something to rethink on as the datastructure gives that
 time complexity on a average scale, which is called as "AMORTIZED" time complexity. That means that there
-would be atleast on instance out of n instances where the Time Complexity would be O(n) and not O(constant).
+would be atleast one instance out of n instances where the Time Complexity would be O(n) and not O(constant).
 This is the time when the HashMap/Hashtable requires resizing.
 
 http://stackoverflow.com/questions/6924852/what-are-the-disadvantages-to-hashmaps
