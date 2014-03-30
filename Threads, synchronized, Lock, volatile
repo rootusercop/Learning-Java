@@ -28,7 +28,11 @@ i.e. Animal a1=new Animal();
        methods of the class can not be accessed by Thread2 even if object1 and object2 are different instance of
        the same class or same instances of the same class.
        This is because, even if a1 and a2 are different instances, but the STATIC keyword acquires lock at the
-       class level. Hence no other instances of the object can be allowed in STATIC SYNCHRONIZED methods.
+       class level. Hence no other instances of the object can be allowed in STATIC SYNCHRONIZED methods. 
+       But if Thread1 enters in STATIC SyNCHRONiZED methods(that is obtains lock for static synchronized methods)
+       then Thread2 which is another instance of the same class Animal can enter(that means obtain lock) for
+       STATIC NON-SYNCHRONIZED methods, NON-STATIC(that means INSTANCE) SYNCHRONIZED methods and 
+       NON-STATIC(in other words INSTANCE) NON-SYNCHRONIZED methods.
        
 Please remember every part of the above explanation. Each and every word in the above explanation is 
 VERY VERY IMPORTANT.
