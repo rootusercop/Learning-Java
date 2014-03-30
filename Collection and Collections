@@ -1,10 +1,12 @@
 Collection is an interface in java which is implemented by List, Set and Map.
+Collections is a class in Java which consists of famous methods such as Collections.sort() method.
+All methods of Collections class are static methods.
 
 Please go through all the classes and interfaces which implement Collection.
 The following is the link for java docs: http://docs.oracle.com/javase/6/docs/api/java/util/Collection.html
 
 Whereas Collections is a proper class in java which consists of some famous predefined methods such as Collections.sort() method.
-All methods of Cllections class are static methods.
+All methods of Collections class are static methods.
 Please go through the following link for more details on the Collections class: 
 http://docs.oracle.com/javase/7/docs/api/java/util/Collections.html
 
