@@ -8,7 +8,8 @@ sychronized method.
 Please go through the following link for more details on the Collections class: 
 http://docs.oracle.com/javase/7/docs/api/java/util/Collections.html
 
-
+Whereas Comparable (compareTo(Object o) method) and Comparator(compare(Object o1, Object o2) and equals(Object o)), 
+both are interfaces in Java.
 
 THE MOST IMPORTANT OF ALL.
 
