@@ -5,6 +5,11 @@ All these are 2 minute videos. Please watch all of them.
 
 VERY IMPORTANT CONCEPT ABOUT SYNCHRONIZATION:
 
+
+Whenever, we think about locks: just remember 2 things
+-> Lock at the CLASS LEVEL(static methods)
+-> Lock at the INSTANCE LEVEL (non-static methods)
+
 1) Consider two objects on a class. Both the objects belong to the SAME INSTANCE of the class.
 i.e. Animal a1=new Animal();
      Animal a2=a1;
