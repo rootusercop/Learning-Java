@@ -46,3 +46,8 @@ String in Java is always defined and declared with capital "S"
 2) As learned in the above mentioned IMP methods, compareTo() method always uses Object(also in case of Byte
 Wrapper class), whereas compare() method always uses primitive data type(Byte wrapper class does not have
 compare() method)
+3) compare(T o1, T o2) method of Comparator<T> interface has both arguments as Objects
+(Source: http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html)
+compareTo(T o) method of Comparable<T> interface has arguments as Object
+That means while overriding compare() and compareTo() methods we have to use ojects as arguments since
+these methods are overridden from respective Comparator<T> and Comparable<T> interfaces
