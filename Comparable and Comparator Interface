@@ -13,7 +13,7 @@ that it has.
 Comparator belongs to util package
 Comparable belongs to lang package
 
-Comparator is used for uder-defined ordering
+Comparator is used for user-defined ordering
 Comparable is used for natural ordering
 
 Also before going to the video tutorials, please read the java docs for Comparator and Comparable.
