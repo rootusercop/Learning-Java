@@ -4,8 +4,16 @@ http://www.youtube.com/watch?v=JSvVsOm4oX0
 
 Comparable (compareTo(Object o) method) and Comparator(compare(Object o1, Object o2) and equals(Object o)), 
 both are interfaces in Java.
-Comparator -> To Remember: eater. Hence only one method.
-Comparable -> To Remember: keep the thing. Hence two methods.
+Comparator -> To Remember: eater.Hence the method name is compare(Object o1, Object o2)
+But for balance it has the second method as well which is equals(Object o)
+Comparable -> To Remember: keep the thing. Hence the method is compareTo(Object o). But this is the only method
+that it has.
+
+
+Comparator belongs to util package
+Comparable belongs to lang package
+
+Comparator is used for uder-defined ordering
 
 Also before going to the video tutorials, please read the java docs for Comparator and Comparable.
 
