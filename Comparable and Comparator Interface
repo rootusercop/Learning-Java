@@ -16,6 +16,10 @@ Comparable belongs to lang package
 Comparator is used for user-defined ordering
 Comparable is used for natural ordering
 
+Both are interfaces and support generics:
+Interface Comparator<T>
+Interface Comparable<T>
+
 Also before going to the video tutorials, please read the java docs for Comparator and Comparable.
 
 http://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html
