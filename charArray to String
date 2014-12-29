@@ -10,4 +10,6 @@ public static String sortString(String s){
 	char[] array = s.toCharArray();
 	Arrays.sort(array);
 	return String.valueOf(array);   // convert char array to String
+		OR
+	return (new String(array));      // convert char array to String. String class has String(char[]) constructor
 }
