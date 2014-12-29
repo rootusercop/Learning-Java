@@ -1,0 +1,28 @@
+In the below mentioned program, we undersand two things:
+
+1. This is to understand creating and initializing 1D, 2D arrays. Doing initialization and creation in the same step,
+does not require 'new' operator. PLEASE UNDERSTAND CAREFULLY, how this is done.
+
+2. We also understand, how to access the number of rows and columns in 2D arrays. PLEASE UNDERSTAND CAREFULLY.
+
+
+package forTesting;
+
+public class SingleAndMultiDimentionalArraysInitialization {
+public static void main(String[] args) {
+// Initializing single dimensional arrays. Doing initialization in this way, does not require use of 'new' operator.
+	String[] OneDArray = {"hello","world","my","name","is"};  
+	int[] intArray = {1,2,3,4,5,6,7,8};
+	
+// Initialzing 2d array. Doing initialization in this way, does not require use of 'new' operator.
+	String[][] TwoDArray = {{"hello","world"},{"hi","bye"},{"me","tu"},{"aapli","aapla"}}; // 4*2 array
+	int[][] intTwoArray = {{1,2,3},{4,5,6},{8,9,10},{11,12,13},{14,15,16}}; // 3*5 array
+	
+// Accessing number of rows and columns in multidimentional arrays
+	int rows = TwoDArray.length;       // Gives number of rows
+	int columns = TwoDArray[0].length;   // Gives number of coulmns
+	
+	System.out.println(rows);
+	System.out.println(columns);
+}
+}
