@@ -17,7 +17,8 @@ public static void main(String[] args) {
 	try{
 		while(true){
 			
-		System.out.println("Program to check which of the first 8 bits (counting from right to left) are SET or UNSET");
+		System.out.println("Program to check which of the first 8 bits (counting from right to left) "+
+		"are SET or UNSET");
 		System.out.println("1. Character \n2. Integer \n3. END");
 		System.out.println("Enter choice");
 		int choice = in.nextInt();
