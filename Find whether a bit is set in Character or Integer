@@ -70,12 +70,12 @@ private static void printSetBits(char[] c) {
 			System.out.print("For the "+j+"th bit: ");
 			if((c[i]&(1<<j))!=0)  // 1 is left shifted by j positions, i.e. 1<<0 = 1
 				System.out.print("SET");                          //   i.e. 1<<1 = 10
-			else												  //   i.e. 1<<2 = 100
-				System.out.print("UNSET");						  //   i.e. 1<<3 = 1000
-			System.out.println();								  //   i.e. 1<<4 = 10000
-		}														  //   i.e. 1<<5 = 100000
-		System.out.println();									  //   i.e. 1<<6 = 1000000
-	}															  //   i.e. 1<<7 = 10000000
+			else							  //   i.e. 1<<2 = 100
+				System.out.print("UNSET");			  //   i.e. 1<<3 = 1000
+			System.out.println();					  //   i.e. 1<<4 = 10000
+		}							          //   i.e. 1<<5 = 100000
+		System.out.println();						  //   i.e. 1<<6 = 1000000
+	}									  //   i.e. 1<<7 = 10000000
 }
 
 private static void printSetBits(int[] a) {
@@ -88,11 +88,11 @@ private static void printSetBits(int[] a) {
 			System.out.print("For the "+j+"th bit: ");
 			if((a[i]&(1<<j))!=0)  // 1 is left shifted by j positions, i.e. 1<<0 = 1
 				System.out.print("SET");                          //   i.e. 1<<1 = 10
-			else												  //   i.e. 1<<2 = 100
-				System.out.print("UNSET");						  //   i.e. 1<<3 = 1000
-			System.out.println();								  //   i.e. 1<<4 = 10000
-		}														  //   i.e. 1<<5 = 100000
-		System.out.println();									  //   i.e. 1<<6 = 1000000
-	}															  //   i.e. 1<<7 = 10000000
+			else							  //   i.e. 1<<2 = 100
+				System.out.print("UNSET");			  //   i.e. 1<<3 = 1000
+			System.out.println();					  //   i.e. 1<<4 = 10000
+		}								  //   i.e. 1<<5 = 100000
+		System.out.println();						  //   i.e. 1<<6 = 1000000
+	}									  //   i.e. 1<<7 = 10000000
 }
 }
