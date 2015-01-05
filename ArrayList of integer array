@@ -1,0 +1,16 @@
+Question: How to create an ArrayList of integer array
+Source: http://stackoverflow.com/questions/13665188/arraylist-of-integer-arrays-in-java
+
+Ans. 
+List<int[]> list = new ArrayList<int[]>();
+                    OR
+ArrayList<int[]> list = new ArrayList<int[]>();
+
+First of all, several of the other answers are misleading and/or incorrect.
+Note that an array is an object. So you can use them as elements in a list, no matter
+whether the arrays themselves contain primitive types or object references.
+
+Next, declaring a variable as List<int[]> list is preferred over declaring it as ArrayList<int[]>.
+This allows you to easily change the List to a LinkedList or some other implementation without breaking 
+the rest of your code because it is guaranteed to use only methods available in the List interface.
+For more information, you should research "programming to the interface."
