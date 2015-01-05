@@ -1,0 +1,5 @@
+Time Complexity = O(n^(0.5)). O(n^constant) This is valid representation because we have other 
+	time complexities which are valid such as O(n^2) OR O(n^3) etc. Hence polynomial time complexity
+	always involves mention of n^constant
+	
+	Source: http://bigocheatsheet.com/
