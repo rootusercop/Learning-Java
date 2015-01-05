@@ -1,0 +1,15 @@
+Question: All possible ways to declare an array in JAVA
+Source: http://stackoverflow.com/questions/1200621/declare-array-in-java
+
+NOTE: Every array of any Primitive(int,char,......,etc) OR ObjectTypes(LinkedList[] <--- array of linked list)
+      is an " instantiated object". i.e. Every array (be it of primitive or object type is an "object")
+
+For Integer Array:
+1.int[] intArray = new int[3];
+2.int[] intArray = new int[]{10,20,30};
+3.int[] intArray = {10,20,30};
+
+For String Array:
+String[] myStringArray = new String[3];
+String[] myStringArray = new String[]{"a","b","c"};
+String[] myStringArray = {"a","b","c"};
