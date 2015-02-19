@@ -17,6 +17,14 @@ public static void main(String[] args) {
 // Initialzing 2d array. Doing initialization and creation in the same step, does not require 'new' operator.
 	String[][] TwoDArray = {{"hello","world"},{"hi","bye"},{"me","tu"},{"aapli","aapla"}}; // 4*2 array
 	int[][] intTwoArray = {{1,2,3},{4,5,6},{8,9,10},{11,12,13},{14,15,16}}; // 3*5 array
+//Use 2D array
+		int[][] maze = new int[6][6];
+		maze[0] = new int[] { 1, 1, 0, 0, 0, 0 };
+		maze[1] = new int[] { 0, 1, 0, 0, 0, 0 };
+		maze[2] = new int[] { 0, 1, 0, 1, 1, 1 };
+		maze[3] = new int[] { 1, 1, 1, 1, 0, 1 };
+		maze[4] = new int[] { 0, 1, 0, 0, 0, 1 };
+		maze[5] = new int[] { 0, 1, 0, 0, 0, 1 };
 	
 // Accessing number of rows and columns in multidimentional arrays
 	int rows = TwoDArray.length;       // Gives number of rows
